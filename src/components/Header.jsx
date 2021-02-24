@@ -1,9 +1,10 @@
 import React from "react";
+import HighlightIcon from '@material-ui/icons/Highlight';
 
 function Header() {
     return (
         <header>
-            <h1>Things To Do</h1>;
+            <h1><HighlightIcon />Things To Do</h1>;
         </header>
     ); 
     
